@@ -1,29 +1,22 @@
 # TranslaText
 # 🌐 Language Translator - PythonFlood
 
-A simple and elegant GUI-based language translator built with **Python**, **Tkinter**, and **Googletrans**. Easily translate text between supported languages using dropdown menus and a clean interface.
+A simple and elegant GUI-based language translator built with **Python**, and **Googletrans**. Easily translate text between supported languages using dropdown menus and a clean interface.
 
 ---
 
 ## 🛠️ Requirements
 
 - Python 3.x
-- Tkinter (comes pre-installed with Python)
 - [googletrans==4.0.0rc1](https://pypi.org/project/googletrans/4.0.0rc1/)
+Install dependencies:
 
-Install dependencies via:
-
-```bash
-pip install googletrans==4.0.0rc1
-
-▶️ How to Run
-Open your terminal or PowerShell.
-Navigate to the project folder:
 bash
-cd D:\LANG_TRANS
-Then run:
+pip install streamlit googletrans==4.0.0rc1
+Run the app:
+
 bash
-python app.py
+streamlit run app.py
 
 
 🧩 Features
